@@ -269,3 +269,47 @@ Cmd: initializeCompiler
 Cmd: initializeCompiler
 Cmd: initializeCompiler
 Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: preprocessCompute
+  insize=4556 outsize=4555 ok=1
+Cmd: preprocessCompute
+  insize=4999 outsize=4998 ok=1
+Cmd: compileComputeKernel
+  error: 2 plat 14 at RayTracingShader.compute(111): undeclared identifier 'flase'
+  api=14 insize=4998 outsize=0 ok=0
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: preprocessCompute
+  insize=5020 outsize=5019 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 14 at RayTracingShader.compute(118): use of potentially uninitialized variable (Shade)
+  api=14 insize=5019 outsize=6493 ok=1
+Cmd: initializeCompiler
+Cmd: preprocessCompute
+  insize=4999 outsize=4998 ok=1
+Cmd: initializeCompiler
+Cmd: preprocessCompute
+  insize=5002 outsize=5001 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 14 at RayTracingShader.compute(118): use of potentially uninitialized variable (Shade)
+  api=14 insize=5001 outsize=6493 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=6493 outsize=12161 ok=1
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
